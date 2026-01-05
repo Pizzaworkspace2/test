@@ -1,0 +1,50 @@
+[
+  {
+  "name": "Stone",
+  "id": 1,
+  "state": 1,
+  "hardness": "1.5F",
+  "class?": "false",
+  "textures": {
+    "front": "/assets/textures/blocks/stone.png",
+    "back": "/assets/textures/blocks/stone.png",
+    "side": "/assets/textures/blocks/stone.png",
+    "top": "/assets/textures/blocks/stone.png",
+    "bottom": "/assets/textures/blocks/stone.png",
+    "sound": "nothing yet",
+  },
+}, 
+
+{
+  "name": "Air",
+  "id": 2,
+  "state": 0,
+  "hardness": "",
+  "class?": "true",
+  "textures": {
+    "front": "",
+    "back": "",
+    "side": "",
+    "top": "",
+    "bottom": "",
+    "sound": "",
+  },
+}, 
+
+  {
+  "name": "Dirt",
+  "id": 3,
+  "state": 1,
+  "hardness": "0.5F",
+  "class?": "false",
+  "textures": {
+    "front": "/assets/textures/blocks/dirt.png",
+    "back": "/assets/textures/blocks/dirt.png",
+    "side": "/assets/textures/blocks/dirt.png",
+    "top": "/assets/textures/blocks/dirt.png",
+    "bottom": "/assets/textures/blocks/dirt.png",
+    "sound": "nothing yet",
+  },
+}
+]
+  

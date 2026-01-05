@@ -1,0 +1,149 @@
+@font-face {
+  font-family: mc;
+  src: url('assets/font/Minecraft.woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+h2 {
+font-family: mc;
+user-select: none;
+filter: brightness(1);
+}
+
+h3 {
+font-family: mc;
+margin: 0;
+user-select: none;
+filter: brightness(1);
+}
+
+.logo {
+  width: 499.2px;
+  height: 280.8px;
+  margin: 0;
+  user-select: none;
+}
+
+.button {
+  background-image: url('assets/buttons/btn-minecraft.png');
+  background-size: cover;
+  width: 400px;
+  height: 46px;
+  text-align: center;
+  vertical-align: middle;
+  margin: 8px;
+}
+
+.button:hover {
+  background-image: url('assets/buttons/btn-minecraft-hover.png');
+  background-size: cover;
+  width: 400px;
+  height: 46px;
+  text-align: center;
+  vertical-align: middle;
+  margin: 8px;
+}
+
+.small-button {
+  background-image: url('assets/buttons/btn-minecraft.png');
+  background-size: cover;
+  width: 196px;
+  height: 46px;
+  text-align: center;
+  vertical-align: middle;
+  margin: 5px;
+}
+
+.small-button:hover {
+  background-image: url('assets/buttons/btn-minecraft-hover.png');
+  background-size: cover;
+  width: 196px;
+  height: 46px;
+  text-align: center;
+  vertical-align: middle;
+  margin: 5px;
+}
+
+#multiplayer-menu {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('assets/background/options_background.png');   
+  background-size: 4.54vw 9.09vh;
+  margin: 0;
+  padding: 0;
+  filter: brightness(0.5);
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%
+}
+
+.splash {
+  transform: rotate(45deg);
+  font-family: mc;
+}
+
+#titlescreen {
+  height: 100vh;
+  width: 100vw;
+  background-image: url('assets/background/panoramanew.png');
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  background-attachment: fixed;
+  background-repeat: repeat-x;
+  animation: panorama 140s linear infinite;
+  overflow: hidden;
+}
+
+/* thanks to x8rr for panorama code */
+
+@keyframes panorama {
+        0% {
+          background-position: 0;
+        }
+
+        100% {
+          background-position: calc(100vh / 144 * -820);
+        }
+      }
+
+#version {
+  position: fixed;
+  bottom: 4px;
+  left: 0;
+}
+
+#titlestart {
+  height: 102px;
+  width: 501px;
+}
+
+input {
+  font-family: mc;
+  height: 46px;
+  width: 200px;
+  background-color: #161717;
+  border-width: 4px;
+  border-color: white;
+  color: white;
+}
+
+#profile {
+  height: 100vh;
+  width: 100vw;
+  background-image: url('assets/background/panoramanew.png');
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: repeat-x;
+  animation: panorama 140s linear infinite;
+  overflow: hidden;
+}
+
+.splashclass {
+  display: flex;
+}
+  
