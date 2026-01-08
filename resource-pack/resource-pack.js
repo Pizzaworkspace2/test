@@ -11,7 +11,7 @@ let res;
 const title = document.getElementById('titlescreen');
 
 async function getJSON() {
-  res = await fetch('resource-pack.json');
+  res = await fetch(`resource-pack.json`);
   data = await res.json();
 }
 
