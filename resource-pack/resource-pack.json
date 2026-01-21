@@ -1,5 +1,5 @@
 {
   "panorama": "url('resource-pack/pano.png')",
   "button": "url('assets/buttons/btn-minecraft.png')",
-  "button-hover": "url('assets/buttons/btn-minecraft-hover.png')",
+  "button-hover": "url('assets/buttons/btn-minecraft-hover.png')"
 }
