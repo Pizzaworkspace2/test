@@ -16,7 +16,7 @@ async function getJSON() {
 }
 
 getJSON().then(() => {
-title.style.background = 'data.panorama';
+title.style.background = data.panorama;
 
   //change this if needed
 //have fun!
