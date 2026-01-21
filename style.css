@@ -89,7 +89,6 @@ html, body {
 #titlescreen {
   height: 100vh;
   width: 100vw;
-  background-image: url('assets/background/panoramanew.png');
   background-size: cover;
   margin: 0;
   padding: 0;
